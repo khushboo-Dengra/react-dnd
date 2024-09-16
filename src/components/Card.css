@@ -1,0 +1,19 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 4px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .card-container.is-dragging {
+    opacity: 0.5;
+  }
+  
+  .drag-handle {
+    cursor: grab;
+    margin-right: 8px;
+  }
